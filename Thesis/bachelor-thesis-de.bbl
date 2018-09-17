@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Gerl2018}
+Armin Gerl, Nadia Bennani, Harald Kosch, and Lionel Brunie.
+\newblock {LPL}, towards a {GDPR}-compliant privacy language: Formal definition
+  and~usage.
+\newblock In {\em Lecture Notes in Computer Science}, pages 41--80. Springer
+  Berlin Heidelberg, 2018.
+
+\bibitem{Li2007}
+Ninghui Li, Tiancheng Li, and Suresh Venkatasubramanian.
+\newblock t-closeness: Privacy beyond k-anonymity and l-diversity.
+\newblock In {\em 2007 {IEEE} 23rd International Conference on Data
+  Engineering}. {IEEE}, apr 2007.
+
+\bibitem{Machanavajjhala2006}
+A.~Machanavajjhala, J.~Gehrke, D.~Kifer, and M.~Venkitasubramaniam.
+\newblock L-diversity: privacy beyond k-anonymity.
+\newblock In {\em 22nd International Conference on Data Engineering
+  ({ICDE}{\textquotesingle}06)}. {IEEE}, 2006.
+
+\bibitem{SWEENEY2002}
+LATANYA SWEENEY.
+\newblock k-{ANONYMITY}: A {MODEL} {FOR} {PROTECTING} {PRIVACY}.
+\newblock {\em International Journal of Uncertainty, Fuzziness and
+  Knowledge-Based Systems}, 10(05):557--570, oct 2002.
+
+\end{thebibliography}

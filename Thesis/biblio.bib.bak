@@ -1,0 +1,41 @@
+% Encoding: UTF-8
+
+@InCollection{Gerl2018,
+  author    = {Armin Gerl and Nadia Bennani and Harald Kosch and Lionel Brunie},
+  title     = {{LPL}, Towards a {GDPR}-Compliant Privacy Language: Formal Definition and~Usage},
+  booktitle = {Lecture Notes in Computer Science},
+  publisher = {Springer Berlin Heidelberg},
+  year      = {2018},
+  pages     = {41--80},
+  doi       = {10.1007/978-3-662-57932-9_2},
+}
+
+@Misc{arx,
+  title        = {arx-deidentifier/arx},
+  howpublished = {https://github.com/arx-deidentifier/arx/tree/master/src/main/org/deidentifier/arx/criteria},
+  url          = {https://github.com/arx-deidentifier/arx/tree/master/src/main/org/deidentifier/arx/criteria},
+}
+
+@Article{SWEENEY2002,
+  author    = {LATANYA SWEENEY},
+  title     = {k-{ANONYMITY}: A {MODEL} {FOR} {PROTECTING} {PRIVACY}},
+  journal   = {International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems},
+  year      = {2002},
+  volume    = {10},
+  number    = {05},
+  pages     = {557--570},
+  month     = {oct},
+  doi       = {10.1142/s0218488502001648},
+  publisher = {World Scientific Pub Co Pte Lt},
+}
+
+@InProceedings{Machanavajjhala2006,
+  author    = {A. Machanavajjhala and J. Gehrke and D. Kifer and M. Venkitasubramaniam},
+  title     = {L-diversity: privacy beyond k-anonymity},
+  booktitle = {22nd International Conference on Data Engineering ({ICDE}{\textquotesingle}06)},
+  year      = {2006},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icde.2006.1},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
