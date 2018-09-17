@@ -38,4 +38,49 @@
   doi       = {10.1109/icde.2006.1},
 }
 
+@InProceedings{Li2007,
+  author    = {Ninghui Li and Tiancheng Li and Suresh Venkatasubramanian},
+  title     = {t-Closeness: Privacy Beyond k-Anonymity and l-Diversity},
+  booktitle = {2007 {IEEE} 23rd International Conference on Data Engineering},
+  year      = {2007},
+  month     = {apr},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icde.2007.367856},
+}
+
+@Article{Fung2010,
+  author    = {Benjamin C. M. Fung and Ke Wang and Rui Chen and Philip S. Yu},
+  title     = {Privacy-preserving data publishing},
+  journal   = {{ACM} Computing Surveys},
+  year      = {2010},
+  volume    = {42},
+  number    = {4},
+  pages     = {1--53},
+  month     = {jun},
+  doi       = {10.1145/1749603.1749605},
+  publisher = {Association for Computing Machinery ({ACM})},
+}
+
+@InProceedings{Nergiz2007,
+  author    = {Mehmet Ercan Nergiz and Maurizio Atzori and Chris Clifton},
+  title     = {Hiding the presence of individuals from shared databases},
+  booktitle = {Proceedings of the 2007 {ACM} {SIGMOD} international conference on Management of data - {SIGMOD} {\textquotesingle}07},
+  year      = {2007},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/1247480.1247554},
+}
+
+@Article{Cao2012,
+  author    = {Jianneng Cao and Panagiotis Karras},
+  title     = {Publishing microdata with a robust privacy guarantee},
+  journal   = {Proceedings of the {VLDB} Endowment},
+  year      = {2012},
+  volume    = {5},
+  number    = {11},
+  pages     = {1388--1399},
+  month     = {jul},
+  doi       = {10.14778/2350229.2350255},
+  publisher = {{VLDB} Endowment},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.14)  17 SEP 2018 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.14)  17 SEP 2018 14:04
 entering extended mode
 **./bachelor-thesis-de.tex
 (bachelor-thesis-de.tex
@@ -1624,7 +1624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--34
  [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
+Underfull \hbox (badness 10000) in paragraph at lines 72--79
 
  []
 
@@ -1632,48 +1632,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
 ]
 Chapter 1.
-(bachelor-thesis-de.bbl [5
+[5
 
 ]
 Chapter 2.
-) [6
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 102--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--111
-
- []
-
+Chapter 3.
 [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Chapter 4.
+[8
+
+]
+Chapter 5.
+[9
+
+]
+Chapter 6.
+[10
+
+]
+Chapter 7.
+(bachelor-thesis-de.bbl [11
+
+]
+Chapter 8.
+) [12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 119--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--128
+
+ []
+
+[13
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (bachelor-thesis-de.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `bachelor-thesis-de.out' has not changed.
-(rerunfilecheck)             Checksum: 4623DD96297EBB8FB54627A417BFAEF2;252.
+(rerunfilecheck)             Checksum: 3225AE57A43BBE648564F9DD25EEE7E5;699.
  ) 
 Here is how much of TeX's memory you used:
- 26196 strings out of 493323
- 482868 string characters out of 3130014
- 585660 words of memory out of 3000000
- 29158 multiletter control sequences out of 15000+200000
+ 26226 strings out of 493323
+ 483188 string characters out of 3130014
+ 586660 words of memory out of 3000000
+ 29172 multiletter control sequences out of 15000+200000
  17679 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,77p,2015b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1688,9 +1712,9 @@ AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk> <C:\Us
 ers\fabia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2074.
 pk> <C:\Users\fabia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecrm1200.pk>
-Output written on bachelor-thesis-de.pdf (8 pages, 100221 bytes).
+Output written on bachelor-thesis-de.pdf (14 pages, 131754 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

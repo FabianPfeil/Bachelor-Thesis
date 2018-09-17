@@ -1,5 +1,18 @@
 \begin{thebibliography}{1}
 
+\bibitem{Brickell2008}
+Justin Brickell and Vitaly Shmatikov.
+\newblock The cost of privacy.
+\newblock In {\em Proceeding of the 14th {ACM} {SIGKDD} international
+  conference on Knowledge discovery and data mining - {KDD} 08}. {ACM} Press,
+  2008.
+
+\bibitem{Cao2012}
+Jianneng Cao and Panagiotis Karras.
+\newblock Publishing microdata with a robust privacy guarantee.
+\newblock {\em Proceedings of the {VLDB} Endowment}, 5(11):1388--1399, jul
+  2012.
+
 \bibitem{Gerl2018}
 Armin Gerl, Nadia Bennani, Harald Kosch, and Lionel Brunie.
 \newblock {LPL}, towards a {GDPR}-compliant privacy language: Formal definition
@@ -18,6 +31,13 @@ A.~Machanavajjhala, J.~Gehrke, D.~Kifer, and M.~Venkitasubramaniam.
 \newblock L-diversity: privacy beyond k-anonymity.
 \newblock In {\em 22nd International Conference on Data Engineering
   ({ICDE}{\textquotesingle}06)}. {IEEE}, 2006.
+
+\bibitem{Nergiz2007}
+Mehmet~Ercan Nergiz, Maurizio Atzori, and Chris Clifton.
+\newblock Hiding the presence of individuals from shared databases.
+\newblock In {\em Proceedings of the 2007 {ACM} {SIGMOD} international
+  conference on Management of data - {SIGMOD} {\textquotesingle}07}. {ACM}
+  Press, 2007.
 
 \bibitem{SWEENEY2002}
 LATANYA SWEENEY.
