@@ -83,4 +83,38 @@
   publisher = {{VLDB} Endowment},
 }
 
+@InProceedings{Brickell2008,
+  author    = {Justin Brickell and Vitaly Shmatikov},
+  title     = {The cost of privacy},
+  booktitle = {Proceeding of the 14th {ACM} {SIGKDD} international conference on Knowledge discovery and data mining - {KDD} 08},
+  year      = {2008},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/1401890.1401904},
+}
+
+@Article{Emam2008,
+  author    = {Khaled El Emam and Fida Kamal Dankar},
+  title     = {Protecting Privacy Using k-Anonymity},
+  journal   = {Journal of the American Medical Informatics Association},
+  year      = {2008},
+  volume    = {15},
+  number    = {5},
+  pages     = {627--637},
+  month     = {sep},
+  doi       = {10.1197/jamia.m2716},
+  publisher = {Oxford University Press ({OUP})},
+}
+
+@Article{Dankar2012,
+  author    = {Fida Kamal Dankar and Khaled El Emam and Angelica Neisa and Tyson Roffey},
+  title     = {Estimating the re-identification risk of clinical data sets},
+  journal   = {{BMC} Medical Informatics and Decision Making},
+  year      = {2012},
+  volume    = {12},
+  number    = {1},
+  month     = {jul},
+  doi       = {10.1186/1472-6947-12-66},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
