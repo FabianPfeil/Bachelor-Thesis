@@ -105,7 +105,7 @@ In this section, we will take a look at the Privacy Models implemented by Arx. T
 
 \section{Definitions}
 
-\section{K-Anonymity} 
+\section{K-Anonymity} \label{k-an}
 The first Privacy Model, we will take a look at is K-Anonymity. This Privacy Model was released in 2002 by Latanya Sweeney with the goal to prevent re-identification of data subjects of certain data sets\cite{SWEENEY2002}. K-Anonymity is defined as follows:\\
 \par
 \begingroup
@@ -125,7 +125,7 @@ To clarify what this means, figure \ref{fig:2} shows the example used in Sweeney
 The figure shown here, is an example for a table that satisfies the k-anonymity criterion. The quasi-identifier for this particular case is QI\textsubscript{T}= \{Race, Birth, Gender, ZIP\} and k = 2. This means that every tuple of quasi-identifying attributes appears at least in two records in T.\\
 As k-Anonymity is defined, we will now take a look at the attacks, which can be mitigated with the property of k-anonymity applied. As this issue was already addressed by Fung et al., their classification will be used here. In the work of Fung et al. it is stated that k-anonymity, applied to a data set, will prevent only Record Linkage attacks. Consequently, other attacks like Attribute Linkage, Table Linkage or a Probabilistic Attack can not be mitigated by k-Anonymity\cite{Fung2010}.
 
-\subsection{K-Map}
+\subsection{K-Map}\label{k-map}
 The Privacy Model of K-Map is directly related to k-Anonymity. El Emam et al. show that extending k-Anonymity to k-Map can however reduce the loss of information due to over-anonymization of the dataset\cite{Emam2008}. Damien Desfontaines describes k-Map like this: "Your data satisfies k-map if every combination of values for the quasi-identifiers appears at least k times in the reidentification dataset."\cite{desfontaines}\\
 The similarity to k-Anonymity is obvious, as the main criterion in both Privacy Models is the same, the only difference is the data set on which they are based. In the case of k-Map it is not the data set of the data custodian, it is the reidentification dataset\cite{desfontaines}. Consequently, K-Map mitigates the same attacks (Record Linkage Attacks) as k-Anonymity. Other attacks can not be prevented by this Privacy Model.\\
 However, the work of El Emam et al. states, that even though k-Map reduces information loss in comparison to k-Anonymity, the model of k-Map is not used in practices because one can assume that a data custodian does not have access to a reidentification dataset, while an attacker does\cite{Emam2008}.  
@@ -324,12 +324,46 @@ Only mentioned in Github arx, allows to define a subset.
 
 \section{Profitability}
 
-4 models, prosecutor and journalist with each normal an no attack, SH and 0 risk scenario corresponding to k-anonymity and k-map
+Now we will take a look at a group of privacy models that are part of the so called game theoretic approach, which was proposed by Wan et al in 2015. This approach tries to find the best possible de-identification strategy to maximize the data publishers monetary gain\cite{Wan}.\\
+In the implementation of arx, four privacy models are present which represent two scenarios. In the \textit{Prosecutor} model, we assume that the attacker knows that a certain record is present in our data base. Consequently groups have to be formed. This is realized by the k-anonymity privacy model, mentioned in section \ref{k-an}.\\
+In the second scenario, the \textit{Journalist} model, the assumption that a attacker knows about an individual's membership is not made. Therefore groups can be made by generalizing the population table. This corresponds to the k-map privacy model mentioned in section \ref{k-map}\cite{Prasser2017}.\\
+For every scenario mentioned here, two variants are implemented by arx. The first one is the SH-Friendly variant which uses generalization hierarchies and appropriate levels of minimal generalization to always satisfy the Safe Harbor policy of HIPAA. The second one is the No-Attack variant. This model guarantees that the adversary never has any urge to even try to attack the published data. Therefore an attacker will only attack, if his monetary gain for attacking a record is greater than the costs he has to encounter. This can be described as:
+\[SP(r) \cdot gain > cost\]
+Consequently the cost of the attack always has to be greater than the attackers estimated monetary gain.\cite{Prasser2017}\\
+It is because of the use of k-anonymity and k-map, that the privacy models of Profitability can be used to protect data from Record Linkage while also maximizing the users monetary gain.\\
+The specifications above result in four privacy models:
+\begin{itemize}
+	\item ProfitabilityProsecutor
+	\item ProfitabilityJournalist
+	\item ProfitabilityProsecutor No Attack
+	\item ProfitabilityJournalist No Attack
+\end{itemize}
+
 
 \section{Differential privacy}
 
-first proposed by dwark. presence or absence of record does not effect the output, privacy not an attribute of a dataset, but of the data processing method, Attacks mitigated taken from arx, based on e-differential
-privacy, (e, d)-differential privacy allows for higher data quality
+The next privacy model is the model of differential privacy, first proposed by Cynthia Dwork in 2006, does not focus on the output dataset on its own but on the data processing method \cite{Dwork2006, dataanonymizationtool}. This model ensures that a disclosure by any attacker is just as likely whether or not one individual does participate in a data base\cite{Dwork2006}.\\
+The privacy model implemented in arx is the model of $(\epsilon, \delta)$-Differential Privacy, which is an extension of $\epsilon$-Differential Privacy. $\epsilon$-Differential Privacy can be defined as follows:\\
+\par
+\begingroup
+\leftskip4em
+\rightskip\leftskip
+"A randomized function K gives $\epsilon$-differential privacy if for all data sets $D_1$ and $D_2$ differing on at most one element, and all S $\subseteq$ Range(K),
+\[Pr\left[K(D_1) \in S\right] \le exp(\epsilon) \times Pr\left[K(D_2) \in S\right]"\cite{Dwork2006}\]
+\par
+\endgroup
+
+As this definition of $\epsilon$-Differential Privacy can be too strict in practice, a commonly used relaxation was introduced, namely ($\epsilon, \delta$)-Differential Privacy. This version of differential privacy allows a small error probability $\delta$ and is defined as follows\cite{Li2012}: \\
+\par
+\begingroup
+\leftskip4em
+\rightskip\leftskip
+"A randomized algorithm A satisfies $(\epsilon, \delta)$-differential privacy, if for any pair of neighboring datasets D and D' and for any O $\subseteq$ Range(A):
+\[Pr\left[A(D) \in O\right] \le e^\epsilon \times Pr\left[A(D') \in O\right] + \delta"\cite{Li2012}\]
+\par
+\endgroup
+Due to the fact that ($\epsilon, \delta$)-Differential Privacy allows a small error probability, a higher data quality is possible in comparison to the traditional $\epsilon$-Differential Privacy\cite{Bild2018}.
+With this privacy model applied it becomes very difficult for adversaries to gain any information about specific individuals. Consequently, data sets are protected from Record Linkage, Attribute Linkage and Table Linkage\cite{dataanonymizationtool}.
 
 \section{Average risk}
 
