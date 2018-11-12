@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(recursiveCLDiversity);adult;30162;3.81
+(recursiveCLDiversity);cup;63441;12.56
+(recursiveCLDiversity);fars;100937;10.95

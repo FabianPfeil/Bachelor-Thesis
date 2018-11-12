@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(basicBLikeness);adult;30162;9.47
+(basicBLikeness);cup;63441;155.48
+(basicBLikeness);fars;100937;25.04

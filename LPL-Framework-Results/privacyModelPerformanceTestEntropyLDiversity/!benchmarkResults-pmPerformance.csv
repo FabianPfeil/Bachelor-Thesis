@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(entropyLDiversity);adult;30162;4.03
+(entropyLDiversity);cup;63441;13.75
+(entropyLDiversity);fars;100937;12.38

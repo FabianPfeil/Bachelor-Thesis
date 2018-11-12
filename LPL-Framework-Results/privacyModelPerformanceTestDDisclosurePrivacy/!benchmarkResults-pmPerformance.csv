@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(dDisclosurePrivacy);adult;30162;10.01
+(dDisclosurePrivacy);cup;63441;154.13
+(dDisclosurePrivacy);fars;100937;24.01

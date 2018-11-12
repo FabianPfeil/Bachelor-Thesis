@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(profitabilityProsecutorNoAttack);adult;30162;0.56
+(profitabilityProsecutorNoAttack);cup;63441;1.26
+(profitabilityProsecutorNoAttack);fars;100937;3.68

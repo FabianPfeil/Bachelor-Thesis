@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(profitabilityJournalist);adult;30162;0.13
+(profitabilityJournalist);cup;63441;0.52
+(profitabilityJournalist);fars;100937;0.21

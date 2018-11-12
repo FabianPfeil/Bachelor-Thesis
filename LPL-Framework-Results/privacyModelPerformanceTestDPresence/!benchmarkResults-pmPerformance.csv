@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(dPresence);adult;30162;22.08
+(dPresence);cup;63441;514.27
+(dPresence);fars;100937;86.83

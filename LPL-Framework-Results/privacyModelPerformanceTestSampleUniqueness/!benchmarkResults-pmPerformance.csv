@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(sampleUniqueness);adult;30162;8.94
+(sampleUniqueness);cup;63441;14.29
+(sampleUniqueness);fars;100937;19.26

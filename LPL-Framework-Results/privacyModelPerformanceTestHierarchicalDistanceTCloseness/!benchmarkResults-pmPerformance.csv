@@ -1,0 +1,5 @@
+;;lpl dataset size;lpl anonymization
+PrivacyModel;Dataset;Value;Arithmetic Mean
+(hierarchicalDistanceTCloseness);adult;30162;9.26
+(hierarchicalDistanceTCloseness);cup;63441;176.31
+(hierarchicalDistanceTCloseness);fars;100937;24.44
